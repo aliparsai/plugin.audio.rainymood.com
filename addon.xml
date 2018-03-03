@@ -15,4 +15,7 @@
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <disclaimer>Rainymood.com has not endorsed this addon</disclaimer>
     </extension>
+    <settings>
+        <setting id="dim_setting" type="number" default="1" label="Dim Screen After (mins)"/>
+    </settings>
 </addon>
