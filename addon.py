@@ -2,7 +2,7 @@ import os,threading
 import xbmc,xbmcgui,xbmcplugin,xbmcaddon
 
 addon = xbmcaddon.Addon()
-dimSetting = int(addon.getSetting('dim_setting'))
+dimSetting = int('1' if addon.getSetting('dim_setting') == '' else addon.getSetting('dim_setting'))
 img = xbmc.translatePath( os.path.join( addon.getAddonInfo('path'), 'rain.jpg' ) )
 img_dim = xbmc.translatePath( os.path.join( addon.getAddonInfo('path'), 'rain-dim.jpg' ) )
 url = ["http://rainymood.com/audio1110/" + str(i) + ".ogg" for i in range(1, 8)]

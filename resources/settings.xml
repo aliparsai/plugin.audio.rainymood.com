@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+     <category label="Settings">
+        <setting id="dim_setting" type="number" default="1" label="Dim Screen After (mins)"/>
+     </category>
+ </settings>
