@@ -51,7 +51,7 @@ class MyWindow(xbmcgui.WindowDialog):
     # 10 = ACTION_PREVIOUS_MENU, 13 = ACTION_STOP, 93 = ACTION_NAV_BACK
     # see https://github.com/xbmc/xbmc/blob/master/xbmc/input/Key.h
     if action==10 or action==13 or action==92:
-      self.CloseAddon()
+      self.closeAddon()
 
 p = MyPlayer()
 w = MyWindow()
