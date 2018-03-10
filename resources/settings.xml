@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
     <category label="Settings">
-        <setting id="dim_setting" type="number" default="1" label="Dim Screen After (mins)"/>
+        <setting id="dim_enabled" type="bool" default="false" label="Dim Screen"/>
+        <setting id="dim_time" type="number" default="1" label="Dim Screen After (mins)"/>
+        <setting id="sleep_enabled" type="bool" default="false" label="Sleep"/>
+        <setting id="sleep_time" type="number" default="30" label="Sleep After (mins)"/>
     </category>
 </settings>

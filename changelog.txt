@@ -1,3 +1,9 @@
+[B]Version 1.4.0[/B]
+
+- added sleep feature
+- added support for disabling dim screen
+- sleep timer and dim timer are disabled by default
+
 [B]Version 1.3.0[/B]
 
 - updated streaming URL
